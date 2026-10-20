@@ -1,0 +1,10 @@
+{
+  "name": "daily-job-finder",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A local, Excel-based job delta tracker with AI relevance screening.",
+  "type": "module",
+  "dependencies": {
+    "playwright-core": "1.62.1"
+  }
+}

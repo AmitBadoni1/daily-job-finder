@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "candidate": {
+    "name": "Your Name",
+    "positioning": [
+      "Data Engineer",
+      "AI Engineer"
+    ],
+    "education": [
+      {
+        "institution": "Example University",
+        "degree": "MS Computer Science",
+        "graduation": "2026"
+      }
+    ],
+    "experience": [
+      {
+        "organization": "Example Company",
+        "title": "Data Engineer",
+        "dates": "2024 to present",
+        "evidence": [
+          "Built production data pipelines with Python and SQL.",
+          "Worked with distributed systems and cloud infrastructure."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Example Project",
+        "focus": "A short description of the problem and your contribution.",
+        "technologies": ["Python", "SQL"],
+        "evidence": "A measurable outcome, if available."
+      }
+    ],
+    "skills": {
+      "languages": ["Python", "SQL"],
+      "platforms": ["AWS", "PostgreSQL"]
+    }
+  }
+}

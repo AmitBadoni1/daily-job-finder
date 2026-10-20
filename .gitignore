@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+.pnpm-store/
+
+# Secrets and user-specific inputs
+.env
+.env.*
+config/candidate_profile.json
+config/search_policy.json
+
+# Generated local state and output
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+tmp/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

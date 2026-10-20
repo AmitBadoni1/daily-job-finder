@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "employment_types": {
+    "allowed": ["full time", "full-time"],
+    "rejected": ["intern", "internship", "co-op", "contract", "contractor", "temporary", "part time", "part-time"]
+  },
+  "work_arrangements": {
+    "allow_onsite": true,
+    "allow_hybrid": true,
+    "allow_remote_only": false
+  },
+  "locations": {
+    "california": {
+      "scope": "state",
+      "aliases": ["california", "ca", "san francisco", "sf", "bay area", "san mateo", "mountain view", "palo alto", "sunnyvale", "santa clara", "san jose", "oakland", "redwood city", "los angeles", "san diego", "irvine", "cupertino", "sacramento"]
+    },
+    "new_york": {
+      "scope": "state",
+      "aliases": ["new york", "ny", "nyc", "new york city", "albany", "buffalo", "rochester", "syracuse", "ithaca", "white plains"]
+    },
+    "boston": {
+      "scope": "metro",
+      "aliases": ["boston", "greater boston", "cambridge, ma", "somerville, ma"]
+    }
+  },
+  "experience": {
+    "maximum_required_minimum_years": 3,
+    "missing_requirement_is_eligible": true
+  },
+  "sponsorship": {
+    "required": true,
+    "reject_only_when_explicitly_unavailable": true,
+    "negative_phrases": [
+      "does not sponsor",
+      "do not sponsor",
+      "unable to sponsor",
+      "will not sponsor",
+      "cannot sponsor",
+      "no visa sponsorship",
+      "without sponsorship",
+      "without the need for sponsorship"
+    ]
+  },
+  "title_screen": {
+    "minimum_relevant_keyword_matches": 2,
+    "software_engineer_requires_data_keyword": true,
+    "relevant_keywords": [
+      "ai", "artificial intelligence", "ml", "machine learning", "llm",
+      "data", "analytics", "engineer", "engineering", "product", "manager",
+      "platform", "infrastructure", "distributed", "pipeline", "software",
+      "forward deployed", "solutions", "technical"
+    ],
+    "always_reject_phrases": [
+      "intern", "internship", "co-op", "research scientist", "sales",
+      "support", "principal", "staff", "engineering manager"
+    ]
+  }
+}
